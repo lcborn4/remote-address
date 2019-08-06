@@ -1,0 +1,27 @@
+{
+  "name": "remote-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcborn4/remote-address.git"
+  },
+  "author": "Logan Born",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcborn4/remote-address/issues"
+  },
+  "homepage": "https://github.com/lcborn4/remote-address#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.9.0"
+  }
+}
