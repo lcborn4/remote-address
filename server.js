@@ -7,7 +7,7 @@ app.get('/', (req, res) =>
 {
   console.log('Finding the remoteAddress');
     console.log('req.connection.remoteAddress',req.connection.remoteAddress);
-res.send(req.headers[‘x-forwarded-for’])
+res.send(req.headers[`x-forwarded-for`])
 
 })
 
