@@ -6,7 +6,8 @@ const port = process.env.PORT || 8000;
 app.get('/', (req, res) => 
 {
   console.log('Finding the remoteAddress');
-res.send(req.connection.remoteAddress)
+    console.log('req.connection.remoteAddress',req.connection.remoteAddress);
+res.send(req.headers[‘x-forwarded-for’])
 
 })
 
